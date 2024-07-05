@@ -1,0 +1,66 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    border: solid 1px black;
+    margin: 20% auto;
+    padding: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.todoInput{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 75%;
+    text-align: left;
+    border-radius: 23px;
+    border: solid 0.3px grey;
+    cursor: pointer;
+}
+.uncompleted-tasks , .completed-tasks{
+    border: solid 1px black;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+    width: 70%;
+    margin: 10px auto;
+}
+.completed-tasks{
+    background-color: limegreen;
+}
+h3{
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    border: solid 0.1px black;
+    margin: 10px;
+    margin-left: 0px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+
+}
+.del-btn{
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+}
